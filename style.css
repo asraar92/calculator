@@ -1,0 +1,64 @@
+body {
+    background-color: rgba(255, 0, 179, 0.175);
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.wrapper {
+    border-radius: 10px;
+    background-color: #000000e1;
+    height: 500px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.displayWrapper {
+    background-color: rgba(169, 169, 169, 0.959);
+    height: 60px;
+    width: 280px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.display {
+    white-space: normal;
+    overflow: auto;
+    padding: 5px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 1 1 auto;
+    gap: 16.5px;
+    padding: 5px;
+}
+
+button {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+}
+
+.equalSign {
+    border-radius: 20%/50%;
+    flex: 1 1 auto;
+}
+
+.normalButtons {
+    flex: 0 1 auto;
+}
+
+.normalButtons,
+.equalSign {
+    font-size: large;
+}
